@@ -47,7 +47,7 @@ export const RobotApi = {
         return httpRequest('/bot/chatroom/update', options);
     },
     /**
-     * 
+     *
      * @summary 添加计划任务
      * @param {CronjobCreateParam} body 添加计划任务参数
      * @param {*} [options] Override http request option.
@@ -834,11 +834,11 @@ export interface TablesLLModel {
     mid: string;
     // 模型，必须和服务商提供的值对应
     model: string;
-    // 服务商，支持 google, openai, xunfei
+    // 服务商，支持 google, openai, xunfei, xai
     provider: string;
     // 主键
     rd: number;
-    // 密钥，google 和 openai 填写 KEY，xunfei 填写 APP-ID,API-KEY,API-SECRET
+    // 密钥，google、xai 和 openai 填写 KEY，xunfei 填写 APP-ID,API-KEY,API-SECRET
     secret: string;
     // 最后更新时间戳
     updated_at: number;

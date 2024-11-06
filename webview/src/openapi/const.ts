@@ -53,6 +53,14 @@ export const AiModels: Record<string, AiOptionData> = {
             'gemini-pro': 'gemini-pro',
         },
     },
+    xai: {
+        name: 'X Ai',
+        endpoint: 'https://api.x.ai',
+        keystyle: '',
+        models: {
+            'grok-beta': 'grok-beta',
+        },
+    },
     openai: {
         name: 'OpenAI ChatGPT',
         endpoint: 'https://api.openai.com/v1',
