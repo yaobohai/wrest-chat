@@ -1,7 +1,7 @@
 package aichat
 
 import (
-	"github.com/rehiy/one-llm/aichat"
+	"github.com/yaobohai/wrest-chat-one-llm"
 
 	"github.com/opentdp/wrest-chat/dbase/chatroom"
 	"github.com/opentdp/wrest-chat/dbase/llmodel"
